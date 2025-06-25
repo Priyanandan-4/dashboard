@@ -64,7 +64,7 @@ const projects = [
   { id: "4", name: "UX Research" },
 ]
 
-export default function TaskDashboard() {
+export default function App() {
   const [tasks, setTasks] = useState(initialTasks)
   const [showAddModal, setShowAddModal] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
